@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music</title>
+  <link rel="icon" href="/ima/unnamed (2).ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/Main CSS.css" />
+  <link rel="icon" type="y-icon" href="ima/icons8-guitar-60.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Tangerine:wght@700&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Handlee&family=Indie+Flower&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=IBM+Plex+Mono:wght@300&family=Source+Code+Pro:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lugrasimo&family=Tangerine:wght@700&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      /* background-color:#0000000d; */
+      padding: 0%;
+      margin: 0%;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    /*.rem {
+        display: flex;
+        background-color: black;
+         padding: 19px 19px;
+        margin: 8px; */
+    /* }
+      .item {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-family: "Tangerine", cursive;
+        background-color: black;
+        padding: 9px 29px;
+        padding-left: 5%;
+         margin: 10px; } */
+    /* .first{
+           text-decoration: none ;
+      } */
+    /* .item-1{
+        
+        color: white;
+        font-size: 40px;
+        font-family: "Tangerine", cursive;
+        padding: 9px 29px;
+        padding-left: 5%;
+        margin: 10px; 
+        text-decoration: none;
+        list-style: none;
+         background-color: black; 
+      } */
+    /* nav {
+        justify-content: space-between;
+    align-items: center;
+     background-color: #070606;
+     color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px; */
+    /* }
+.item li {
+    padding: 10px;
+    margin-right: 40%; 
+    margin-left: 20%;
+    color: white; */
+
+    /* }
+.item li a:hover {
+    color: rgb(0, 255, 225); 
+}
+.item li a:active {
+    color: rgb(255, 255, 255);
+} */
+    .search {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: reverse;
+      align-items: center;
+      background-color: black;
+    }
+
+    .search input {
+      background-color: rgb(3, 1, 1);
+      padding: 5px;
+      margin-right: 0px;
+      padding-left: 50px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      height: 25px;
+      color: white;
+    }
+
+    .search button {
+      padding: 6px 10px;
+      margin-left: 5px;
+      background-color: rgb(15, 13, 13);
+      color: #fff9f9;
+      font-size: 25px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Lugrasimo', cursive;
+      display: block;
+    }
+
+    .search-icon {
+      font-size: 16px;
+    }
+
+    button.search {
+      background-color: black;
+    }
+
+    /* nav {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}  */
+    .box {
+      height: 450px;
+      /* padding:2%; */
+      margin: 2%;
+      border: 2px solid white;
+      border-radius: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+      justify-content: space-between;
+      justify-content: center;
+      font-family: "Tangerine", cursive;
+
+      /* align-items: center; */
+
+    }
+
+    #Box {
+      display: flex;
+
+    }
+
+    .bi-search {
+      background-color: black;
+    }
+
+    #Box-1 {
+      margin: 0%;
+      display: flex;
+
+    }
+
+    .box img {
+      border-radius: 15px;
+      height: 450px;
+      width: 450px;
+      /* width: 100%;
+    height: auto;  */
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: row;
+
+    }
+
+    .box {
+      position: relative;
+      width: 500px;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .text-overlay p {
+      color: #e5fdfd;
+      font-size: 60px;
+      text-align: center;
+    }
+
+    .text-overlay p:hover {
+      color: #2af8f5;
+    }
+
+    /* .rem ul{
+         display: flex;
+         flex: wrap;
+         border: 2 px solid white;
+         border-radius: 10px;    
+
+  } */
+    .navbar {
+      width: 1000px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      font-size: 40px;
+      font-family: "Tangerine", cursive;
+      padding: 9px 29px;
+      background-color: #323131;
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+      margin: auto;
+    }
+
+    .navbar a:hover {
+
+      color: #2af8f5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="/Main.html" class="first">Home</a>
+    <a href="https://www.bandlab.com/studio" class="first">Studio</a>
+    <a href="/guitar.html" class="first">Blog</a>
+    <a href="/Flute.html" class="first">Features</a>
+    <form class="search">
+      <!-- <input type="search" placeholder="Search Me">
+        <button type="search">
+            <i class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></i></button>
+    </form> -->
+  </div>
+  <!-- <nav class="rem">
+        <ul class="item">
+            <li id="item-1"><a href="/Main.html" class="first">Home</a></li>
+            <li id="item-2"><a href="https://www.bandlab.com/studio" class="first">Studio</a></li>
+            <li id="item-3"><a href="/guitar.html" class="first">Blog</a></li>
+            <li id="item-3"><a href="/guitar.html" class="first">Features</a></li>
+        <form class="search">
+            <input type="search" placeholder="Search Me">
+            <button type="search">
+                <i class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></i></button>
+        </form></ul>
+    </nav> -->
+  <div id="Box">
+    <div class="box" id="box-1" class="img box">
+      <img src="/ima/classical and carnatic 1.png" alt="Off Display" id="img-1">
+      <div class="text-overlay">
+        <p>Carnatic and Classical</p>
+      </div>
+    </div>
+    <div class="box" id="box-2">
+      <img src="/ima/classical and carnatic 1.png" alt="Off Display" id="img-2">
+      <div class="text-overlay">
+        <p>Western</p>
+      </div>
+    </div>
+    <div class="box" id="box-3">
+      <img src="/ima/classical and carnatic 1.png" alt="Off Display" id="img-3">
+      <div class="text-overlay">
+        <p>Romantic</p>
+      </div>
+    </div>
+  </div>
+  <div id="Box-1">
+    <div class="box" id="box-4">
+      <img src="ima/classical and carnatic 1.png" alt="Off Display" id="img-4">
+      <div class="text-overlay">
+        <p>Love</p>
+      </div>
+    </div>
+    <div class="box" id="box-5">
+      <img src="/ima/classical and carnatic 1.png" alt="Off Display" id="img-5">
+      <div class="text-overlay">
+        <p>Break up</p>
+      </div>
+    </div>
+    <div class="box" id="box-6">
+      <img src="/ima/classical and carnatic 1.png" alt="Off Display" id="img-6">
+      <div class="text-overlay">
+        <p>Instrumental</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

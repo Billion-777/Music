@@ -1,0 +1,282 @@
+/* universal statement */
+/*font-family: 'Handlee', cursive;*/
+* {
+  margin: 10px;
+  padding: 0;
+}
+body {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   display: block;
+   object-fit: cover;
+   object-position: justify;
+  font-family: "Handlee", cursive;
+  background-color: rgb(15, 14, 14);
+
+  /*  Main image modification */
+}
+.img {
+  height: 500px;
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* width: 100%; */
+  border-radius: 80px;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink:0;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  object-position: center;
+  margin: auto;
+  border-radius: 39px;
+  box-sizing: border-box;
+  border: 3px solid #fdfefeb6;
+  /* display: block; */
+  flex-wrap: wrap;
+}
+@media screen and (max-width:900px) {
+  .img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+   
+  }
+}
+   /* @media (max-width:600px) {
+      body {
+        display: flex;
+        flex-wrap: wrap;
+        height: 700px;
+        background-color: aqua;
+      }
+
+}
+@media (min-width:600px) and (max-width:2000px) {
+   body {
+     display: flex;
+     flex-wrap: wrap;
+     height: 700px;
+     background-color: rgb(255, 60, 0);
+   }
+
+} */
+#Types {
+  color: rgb(34, 226, 236);
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border: 3px solid #cbf8276e;
+  border-radius: 10px;
+  margin: auto;
+  padding: 2.5%;
+  text-align: justify;
+  font-size: 42px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+}
+#TypesG {
+  color: rgb(34, 226, 236);
+  
+  box-sizing: border-box;
+  border: 3px solid #cbf8276e;
+  border-radius: 10px;
+  margin: auto;
+  padding: 2.5%;
+  text-align: justify;
+  font-size: 42px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+}
+#TypesB {
+  color: rgb(34, 226, 236);
+  box-sizing: border-box;
+  border: 3px solid #cbf8276e;
+  border-radius: 10px;
+  margin: auto;
+  padding: 2.5%;
+  text-align: justify;
+  font-size: 42px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+}
+#TypesD {
+  color: rgb(34, 226, 236);
+  box-sizing: border-box;
+  border: 3px solid #cbf8276e;
+  border-radius: 10px;
+  margin: auto;
+  padding: 2.5%;
+  text-align: justify;
+  font-size: 42px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+}
+
+#History {
+  color: rgb(34, 226, 236);
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  flex: 20  20  300px;
+  box-sizing: content-box;
+  border: 3px solid #cbf8276e;
+  border-radius: 10px;
+  padding: 0.5%;
+  margin: auto;
+  text-align: justify;
+}
+#Tuning {
+  color: rgb(34, 226, 236);
+  box-sizing: border-box;
+  border: 3px solid #cbf8276e;
+  border-radius: 10px;
+  margin: auto;
+  padding: 0.2.0%;
+  text-align: justify;
+  font-size: 42px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+}
+#img1 {
+  display: flex;
+  flex-basis: 35px;
+  object-fit: cover;
+}
+#img2 {
+  border-radius: 50px;
+  border: 3px solid rgb(233, 84, 84);
+  padding: 1.5%;
+  margin-left: 32%;
+}
+#img3 {
+  border-radius: 50px;
+  border: 3px solid rgb(233, 84, 84);
+  padding: 1.5%;
+}
+#img4 {
+  border-radius: 60px;
+  border: 3px solid rgb(233, 84, 84);
+  padding: 1.5%;
+  margin-left: 15%;
+}
+#img5 {
+  border-radius: 60px;
+  border: 3px solid rgb(233, 84, 84);
+  padding: 1.5%;
+}
+#img6 {
+  border-radius: 60px;
+  border: 3px solid rgb(233, 84, 84);
+  padding: 1.5%;
+  margin-left: 1%;
+}
+#img7 {
+  border-radius: 60px;
+  border: 3px solid rgb(233, 84, 84);
+  padding: 1.5%;
+}
+#img8 {
+  /* border: 3px solid rgb(233, 84, 84); */
+  border-radius: 10000%;
+  padding: 0.5%;
+  margin-left: 35%;
+}
+#img9 {
+  border-radius: 60px;
+  border: 3px solid rgb(233, 84, 84);
+  padding: 1.5%;
+  margin-left: 2%;
+}
+#img10 {
+  border-radius: 60px;
+  border: 3px solid rgb(233, 84, 84);
+  padding: 2.5%;
+}
+#vid1 {
+  margin-left: 30%;
+  border-radius: 30px;
+  /* border: 3px solid rgb(233, 84, 84); */
+
+  align-content: center;
+  /* border: 3px solid rgb(233, 84, 84);
+padding: 2.5%; */
+}
+.flu {
+  color: rgb(236, 247, 84);
+  font-size: 30px;
+  font-family: "IBM Plex Mono", monospace;
+  border-radius: 2px;
+  /* background-color: rgba(228, 185, 84, 0.641); */
+  margin: auto 45%;
+  font-family: "Marck Script", cursive;
+}
+.flu:hover {
+  color: rgb(11, 239, 182);
+}
+.para {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: auto 38%;
+  font-family: "Marck Script", cursive;
+}
+#H {
+   flex-wrap: wrap;
+  font-size: 42px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+}
+#H1 {
+  font-size: 50px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+}
+#HistoryG {
+  color: white;
+   flex-wrap: wrap;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Handlee", cursive;
+}
+#A {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Handlee", cursive;
+}
+#T {
+  color: rgb(240, 240, 75);
+  font-size: 47px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+}
+#C {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Handlee", cursive;
+}
+#F {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Handlee", cursive;
+}
+#E {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Handlee", cursive;
+}
+#TuningG {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Handlee", cursive;
+}
